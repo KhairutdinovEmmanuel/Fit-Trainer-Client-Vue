@@ -1,0 +1,31 @@
+.form-authorization {
+  width: 100%;
+  padding: 10px;
+
+  & .form-authorization-field {
+    margin: 10px 0;
+  }
+
+  & .form-authorization-actions {
+    display: flex;
+    flex-direction: column;
+
+    & .btn-submit {
+      padding: 20px;
+      width: fit-content;
+      background: #aa00af;
+      color: #fff;
+      font-weight: 300;
+    }
+
+    & .btn-description-with-link {
+      text-decoration: none;
+    }
+
+    & .btn-description {
+      margin-top: 5px;
+      font-size: 14px;
+      color: var(--v-fontColorPrimary-base);
+    }
+  }
+}
